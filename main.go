@@ -10,8 +10,8 @@ func main() {
 		panic(err)
 	}
 
-	// Create SOCKS5 proxy on localhost port 31017
-	if err := server.ListenAndServe("tcp", "0.0.0.0:31017"); err != nil {
+	// Create SOCKS5 proxy on localhost port 1080
+	if err := server.ListenAndServe("tcp", "0.0.0.0:1080"); err != nil {
 		panic(err)
 	}
 }
