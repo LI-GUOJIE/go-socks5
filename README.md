@@ -9,3 +9,5 @@ Forked from armon/go-socks5
 4, install golang-go
 5, go run main.go
 6, change password, or not
+7, append to /etc/rc.local: "nohup /home/...../auto_restart.sh &"
+8, run "nohup /home/...../auto_restart.sh &"
