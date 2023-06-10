@@ -1,11 +1,24 @@
 package main
 
 import (
+	"log"
+	"os"
 	"ss5/socks5"
 )
 
 func main() {
-	server, err := socks5.New(&socks5.Config{})
+
+	// Create a socks server
+	creds := socks5.StaticCredentials{
+		"egg": "change_to_what_you_like",
+	}
+	cator := socks5.UserPassAuthenticator{Credentials: creds}
+	conf := &socks5.Config{
+		AuthMethods: []socks5.Authenticator{cator},
+		Logger:      log.New(os.Stdout, "", log.LstdFlags),
+	}
+
+	server, err := socks5.New(conf)
 	if err != nil {
 		panic(err)
 	}

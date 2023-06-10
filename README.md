@@ -8,3 +8,4 @@ Forked from armon/go-socks5
 3, git clone this repo.
 4, install golang-go
 5, go run main.go
+6, change password, or not
