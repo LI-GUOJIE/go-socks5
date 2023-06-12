@@ -15,7 +15,7 @@ do
     whoami >> log.file
 
     # Run
-    nohup /home/admin/vpn/goss5/ss5 >> log.file &
+    nohup /home/admin/vpn/goss5/ss5 > /dev/null &
   fi
 
   sleep 5
