@@ -13,3 +13,8 @@ Forked from armon/go-socks5
 7, append to /etc/rc.local: "nohup /home/...../auto_restart.sh &"
 8, run "nohup /home/...../auto_restart.sh &"
 ```
+
+## License
+
+Copyright © Microsoft Corporation All rights reserved.<br />
+Licensed under the MIT License. See LICENSE in the project root for license information.
