@@ -3,6 +3,7 @@ SOCKS5 server in Golang
 
 Forked from armon/go-socks5
 
+```
 1, Create a server on Vultr.com.
 2, Stop firewalld, iptables, or ufw.
 3, git clone this repo.
@@ -11,3 +12,4 @@ Forked from armon/go-socks5
 6, change password, or not
 7, append to /etc/rc.local: "nohup /home/...../auto_restart.sh &"
 8, run "nohup /home/...../auto_restart.sh &"
+```
